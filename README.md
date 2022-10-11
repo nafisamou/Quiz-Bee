@@ -3,7 +3,7 @@
 An Online Quize platform.
 
 ## Live Link
-Hosted in Netlify -> [Smart Home](https://shome-shop.netlify.app/)
+Hosted in Netlify -> ([https://shome-shop.netlify.app/](https://aesthetic-crisp-244e61.netlify.app/statistics))
 
 ## Context API
 
