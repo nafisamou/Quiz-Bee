@@ -49,7 +49,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/statistics"
-              aria-label="Statistics"
+              aria-label="statistics"
               title="Statistics"
               className={({ isActive }) =>
                 isActive
@@ -161,7 +161,7 @@ const Header = () => {
                     <li>
                       <Link
                         to="/statistics"
-                        aria-label="Statistics"
+                        aria-label="statistics"
                         title="Statistics"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
