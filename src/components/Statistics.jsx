@@ -37,7 +37,7 @@ const Statistics = () => {
   render()
   
     return (
-      <div>
+      <ResponsiveContainer width="100%" height={500}>
         <LineChart
           width={1000}
           height={500}
@@ -63,7 +63,7 @@ const Statistics = () => {
           />
           <Line type="monotone" dataKey="name" stroke="#82ca9d" />
         </LineChart>
-      </div>
+      </ResponsiveContainer>
     );
   
   
