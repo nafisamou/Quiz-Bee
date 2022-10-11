@@ -1,7 +1,6 @@
-# Smart Home Starter Repository
+#  Quizzee Bee Buzz Repository
 
-An E-commerce platform for buying high quality Smart Home Appliances at extremely affordable Price.
-
+An Online Quize platform.
 
 ## Live Link
 Hosted in Netlify -> [Smart Home](https://shome-shop.netlify.app/)
@@ -15,9 +14,8 @@ Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
 
 ## Resources & Credits
 Tailwind Components -> 
-[Mamba UI](https://www.mambaui.com/)
-[Kitwind](https://kitwind.io/products/kometa/components)
+[Daisy UI](https://daisyui.com/)
+
 
 ## Other Resources
 Icon -> [FlatIcon](https://www.flaticon.com/)
-Product Photos -> [Freepic](https://www.freepik.com/)
