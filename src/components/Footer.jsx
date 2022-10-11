@@ -18,7 +18,7 @@ const Footer = () => {
               </svg>
             </div>
             <span className='self-center text-2xl font-semibold'>
-              Nafisa
+            Quizzee Bee Buzz
             </span>
           </Link>
         </div>

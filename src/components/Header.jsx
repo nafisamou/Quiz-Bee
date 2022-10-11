@@ -8,8 +8,8 @@ const Header = () => {
       <div className="relative flex items-center justify-between">
         <Link
           to="/"
-          aria-label="Website"
-          title="Website"
+          aria-label="Quizzee Bee Buzz"
+          title="Quizzee Bee Buzz"
           className="inline-flex items-center"
         >
           <svg
@@ -28,7 +28,7 @@ const Header = () => {
             <rect x="14" y="11" width="7" height="12" />
           </svg>
           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-            Mou
+          Quizzee Bee Buzz
           </span>
         </Link>
         <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -75,6 +75,14 @@ const Header = () => {
               Blog
             </NavLink>
           </li>
+          <li>
+          <div className="avatar online">
+  <div className="w-16  rounded-full">
+    <img src="https://placeimg.com/192/192/people" alt="img" />
+  </div>
+</div>
+
+          </li>
         </ul>
         <div className="lg:hidden ">
           <button
@@ -118,7 +126,7 @@ const Header = () => {
                         <path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
                       </svg>
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Smart Home
+                      Quizzee Bee Buzz
                       </span>
                     </Link>
                   </div>
@@ -144,7 +152,7 @@ const Header = () => {
                       <Link
                         to="/home"
                         aria-label="home"
-                        title="Shop"
+                        title="Home"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Home
@@ -152,25 +160,25 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to="/cart"
-                        aria-label="Cart"
-                        title="Cart"
+                        to="/statistics"
+                        aria-label="Statistics"
+                        title="Statistics"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         <div className="relative py-3">
-                          <p>Cart</p>
+                          <p>Statistics</p>
                           <p className="absolute bottom-5 left-9"></p>
                         </div>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/about"
-                        aria-label="About Us"
-                        title="About Us"
+                        to="/blog"
+                        aria-label="Blog"
+                        title="Blog"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        About Us
+                        Blog
                       </Link>
                     </li>
                   </ul>
