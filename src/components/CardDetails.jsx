@@ -7,8 +7,8 @@ const CardDetails = () => {
   return (
     <div className="bg-yellow-50 p-8 ">
       <div>
-        <h2 className="text-xl"> Quize-1: What is the meaning of {name} ?</h2>
-        <h3>total quiz : {total}</h3>
+        <h2 className="text-2xl mb-2 flex justify-center underline font-semibold"> Quize of {name} </h2>
+        <h3>Total Quize : {total}</h3>
       </div>
       <div className="grid lg:grid-cols-2 gap-4 grid-cols-1">
         {questions.map((questionArray) => (

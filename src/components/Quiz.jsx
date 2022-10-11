@@ -14,13 +14,13 @@ const Quiz = ({ questionArray }) => {
     }
   };
   const showButtonHandler = (correctAnswer) => {
-    toast.info("hi");
+    toast.info(correctAnswer, { autoClose: 500 });
   };
 
   return (
     <div>
-      <div className="d-flex justify-between">
-        <div dangerouslySetInnerHTML={{ __html: question }}></div>
+      <div className="flex justify-between">
+        <div dangerouslySetInnerHTML={{ __html: question }} className="mb-4 mt-5"></div>
         <div>
         <button className="justify-end" onClick={() => showButtonHandler(correctAnswer)}>
           {" "}

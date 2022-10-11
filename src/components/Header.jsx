@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
       <div className="relative flex items-center justify-between">
         <Link
           to="/"
@@ -76,7 +76,7 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <div className="lg:hidden">
+        <div className="lg:hidden ">
           <button
             aria-label="Open Menu"
             title="Open Menu"
@@ -99,8 +99,8 @@ const Header = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute top-0 left-0 w-full">
-              <div className="p-5 bg-white border rounded shadow-sm">
+            <div className="absolute top-0 left-0 w-full z-10">
+              <div className="p-5 bg-white  border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link
