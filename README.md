@@ -1,9 +1,9 @@
 #  Quizzee Bee Buzz Repository
 
-An Online Quize platform.
+An Online Quiz platform.
 
 ## Live Link
-Hosted in Netlify -> ([https://shome-shop.netlify.app/](https://aesthetic-crisp-244e61.netlify.app/statistics))
+Hosted in Netlify -> (https://aesthetic-crisp-244e61.netlify.app/statistics)
 
 ## Context API
 
