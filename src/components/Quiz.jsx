@@ -28,7 +28,7 @@ const Quiz = ({ questionArray }) => {
         </button>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 border-4 p-4 bg-white shadow-lg">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 border-4 p-4 border-1 bg-white shadow-lg">
         {options.map((option) => (
           <Options option={option} handleClick={handleClick}></Options>
         ))}
