@@ -19,7 +19,7 @@ const Quiz = ({ questionArray }) => {
 
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between font-semibold font-serif text-lg">
         <div dangerouslySetInnerHTML={{ __html: question }} className="mb-4 mt-5"></div>
         <div>
         <button className="justify-end" onClick={() => showButtonHandler(correctAnswer)}>
