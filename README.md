@@ -3,7 +3,7 @@
 An Online Quiz platform.
 
 ## Live Link
-Hosted in Netlify -> (https://aesthetic-crisp-244e61.netlify.app/statistics)
+Hosted in Netlify ->[QuizPlatform](https://aesthetic-crisp-244e61.netlify.app/statistics)
 
 ## Context API
 
@@ -19,3 +19,5 @@ Tailwind Components ->
 
 ## Other Resources
 Icon -> [FlatIcon](https://www.flaticon.com/)
+Lottifiles ->[Quiz.json](https://lottiefiles.com/)
+Icon -> [FaEye](https://react-icons.github.io/react-icons/)
